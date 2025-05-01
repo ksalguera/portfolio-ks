@@ -1,9 +1,12 @@
 import Hero from "./sections/Hero";
+import VantaBackground from "./sections/hero/VantaBackground";  
 
 const App = () => {
   return (
     <>
-      <Hero />
+      <VantaBackground>
+        <Hero />
+      </VantaBackground>
     </>
   )
 }
