@@ -1,5 +1,6 @@
 import Hero from "./sections/Hero";
 import VantaBackground from "./sections/hero/VantaBackground";  
+import Showcase from "./sections/showcase/Showcase";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <VantaBackground>
         <Hero />
       </VantaBackground>
+      <Showcase />
     </>
   )
 }
