@@ -1,3 +1,8 @@
+export const navLinks = [
+  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
+];
+
 export const heroWords = [
   { text: "Clean Code", imgPath: "/images/hero/code.svg" },
   { text: "Ideas", imgPath: "/images/hero/ideas.svg" },
